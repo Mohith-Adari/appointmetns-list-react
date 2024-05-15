@@ -1,0 +1,83 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+.label-element {
+  color: #b5b7c4;
+  font-size: 12px;
+}
+
+.input-type {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.btn-style {
+  align-self: flex-start;
+  background-color: #8b5cf6;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.img-style {
+  height: 250px;
+}
+
+.break-line {
+  margin: 20px 0px;
+}
+
+.star-btn {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 8px;
+  color: #8b5cf6;
+  border: 2px solid #8b5cf6;
+  cursor: pointer;
+}
+
+.appointments-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appointments-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}

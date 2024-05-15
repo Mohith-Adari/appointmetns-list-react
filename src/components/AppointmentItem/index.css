@@ -1,0 +1,9 @@
+/* Write your CSS here */
+.list-style {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #b5b7c4;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
